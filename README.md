@@ -23,3 +23,10 @@ B --> C{Decision}
 C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
 ```
+
+```mermaid
+flowchart LR
+    id1((WEB<br>View))
+    id2[[This is the text in the box]]
+    id3[(Database<br>MySQL)]
+```
