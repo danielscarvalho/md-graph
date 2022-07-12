@@ -32,3 +32,6 @@ flowchart LR
     V<--- JSON --->C
     C<--- SQL --->M
 ```
+
+Referência:<br>
+https://github.com/mermaid-js/mermaid
