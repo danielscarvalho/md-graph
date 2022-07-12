@@ -1,5 +1,5 @@
 # md-graph
-Markdown Graph
+Markdown Graph with mermaid
 
 ```mermaid
   graph TD;
