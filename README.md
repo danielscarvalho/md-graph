@@ -29,6 +29,6 @@ flowchart LR
     V((WEB<br>View))
     C[[Java WEB API<br>Controller]]
     M[(Database<br>MySQL<br>Model)]
-    V<--- REST/JSON<br>HTTP --->C
+    V<--- REST JSON<br>HTTP --->C
     C<--- SQL --->M
 ```
