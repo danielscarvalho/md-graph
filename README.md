@@ -15,7 +15,8 @@ Markdown Graph
       K-->I;
 ```
 
-```flowchart LR
+```
+flowchart LR
 
 A[Hard] -->|Text| B(Round)
 B --> C{Decision}
