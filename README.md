@@ -27,6 +27,6 @@ C -->|Two| E[Result 2]
 ```mermaid
 flowchart LR
     id1((WEB<br>View))
-    id2[[This is the text in the box]]
-    id3[(Database<br>MySQL)]
+    id2[[WEB API<br>Controller]]
+    id3[(Database<br>MySQLM<br>Model)]
 ```
