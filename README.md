@@ -8,7 +8,7 @@ Markdown Graph
       B-->D;
       C-->D;
       D-->D;
-      F-->F;This is the text in the box
+      F-->F;
       G-->F;
       H-->I;
       J-->I;
