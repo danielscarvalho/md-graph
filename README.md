@@ -8,4 +8,6 @@ Markdown Graph
       B-->D;
       C-->D;
       D-->D;
+      F-->F;
+      G-->F;
 ```
