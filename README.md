@@ -15,7 +15,7 @@ Markdown Graph
       K-->I;
 ```
 
-```
+```mermaid
 flowchart LR
 
 A[Hard] -->|Text| B(Round)
