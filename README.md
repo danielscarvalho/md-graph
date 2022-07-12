@@ -27,8 +27,8 @@ C -->|Two| E[Result 2]
 ```mermaid
 flowchart LR
     V((WEB<br>View))
-    C[[WEB API<br>Controller]]
+    C[[Java WEB API<br>Controller]]
     M[(Database<br>MySQL<br>Model)]
-    V<-->C
-    C<-->M
+    V<--- REST/JSON<HTTP> --->C
+    C<--- SQL --->M
 ```
