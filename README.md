@@ -8,7 +8,7 @@ Markdown Graph
       B-->D;
       C-->D;
       D-->D;
-      F-->F;
+      F-->F;This is the text in the box
       G-->F;
       H-->I;
       J-->I;
@@ -26,7 +26,9 @@ C -->|Two| E[Result 2]
 
 ```mermaid
 flowchart LR
-    id1((WEB<br>View))
-    id2[[WEB API<br>Controller]]
-    id3[(Database<br>MySQLM<br>Model)]
+    V((WEB<br>View))
+    C[[WEB API<br>Controller]]
+    M[(Database<br>MySQL<br>Model)]
+    V<-->C
+    C<-->M
 ```
