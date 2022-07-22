@@ -16,6 +16,15 @@ Markdown Graph with mermaid
 ```
 
 ```mermaid
+  graph TD;
+      Cientista de Dados 1-->GitHub Repo;
+      Cientista de Dados 2-->GitHub Repo;
+      Cientista de Dados N-->GitHub Repo;
+      GitHub Repo-->Servidor;
+      GitHub Repo-->Usuários;      
+```
+
+```mermaid
 flowchart LR
 
 A[Hard] -->|Text| B(Round)
