@@ -40,7 +40,7 @@ flowchart LR
       CN((Cientista de Dados N))
       G[[GitHub Repo]]
       S[[Servidor]]
-      U[(Usuário)]
+      U[Usuário]
       C1--->G
       C2--->G
       CN--->G
