@@ -16,15 +16,6 @@ Markdown Graph with mermaid
 ```
 
 ```mermaid
-  graph TD;
-      "Cientista de Dados 1"-->"GitHub Repo";
-      Cientista de Dados 2-->"GitHub Repo";
-      Cientista de Dados N-->"GitHub Repo";
-      "GitHub Repo"-->Servidor;
-      "GitHub Repo"-->Usuários;      
-```
-
-```mermaid
 flowchart LR
 
 A[Hard] -->|Text| B(Round)
@@ -40,6 +31,21 @@ flowchart LR
     M[(Database<br>MySQL<br>Model)]
     V<--- JSON --->C
     C<--- SQL --->M
+```
+
+```mermaid
+flowchart LR
+      C1((Cientista de Dados 1))
+      C2((Cientista de Dados 2))
+      CN((Cientista de Dados N))
+      G[[GitHub Repo]]
+      S[[Servidor]]
+      U[(Usuário)]
+      C1--->G
+      C2--->G
+      CN--->G
+      G--->S
+      S--->U
 ```
 
 ```mermaid
